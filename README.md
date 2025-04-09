@@ -26,7 +26,7 @@ I want to learn about costmaps. I have an idea for an application that simply us
 
 ## Running what is here
 
-Note that this is designed to work with a ros2 nodes publishing /odom and /scan. So do whatever you need to do first to get those.
+**Note that this is designed to work with a ros2 nodes publishing /odom and /scan. So do whatever you need to do first to get those.**
 
 ```
 $ colcon build
