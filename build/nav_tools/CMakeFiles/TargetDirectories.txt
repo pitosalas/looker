@@ -1,0 +1,10 @@
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/uninstall.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/nav_tools_uninstall.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/costmap_node.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/test.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/edit_cache.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/rebuild_cache.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/list_install_components.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/install.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/install/local.dir
+/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools/CMakeFiles/install/strip.dir

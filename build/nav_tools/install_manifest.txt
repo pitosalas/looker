@@ -1,0 +1,16 @@
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/lib/nav_tools/costmap_node
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/package_run_dependencies/nav_tools
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/parent_prefix_path/nav_tools
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/ament_prefix_path.sh
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/ament_prefix_path.dsv
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/path.sh
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/path.dsv
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.bash
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.sh
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.zsh
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.dsv
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/package.dsv
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/packages/nav_tools
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/cmake/nav_toolsConfig.cmake
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/cmake/nav_toolsConfig-version.cmake
+/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/package.xml

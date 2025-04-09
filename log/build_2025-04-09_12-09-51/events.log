@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.002995] (nav_tools) JobQueued: {'identifier': 'nav_tools', 'dependencies': OrderedDict()}
+[0.003288] (nav_tools) JobStarted: {'identifier': 'nav_tools'}
+[0.073211] (nav_tools) JobProgress: {'identifier': 'nav_tools', 'progress': 'cmake'}
+[0.076801] (nav_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/pitosalas/linorobot2_ws/src/nav_tools', '-DCMAKE_INSTALL_PREFIX=/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools'], 'cwd': '/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools', 'env': OrderedDict({'LINOROBOT2_BASE': '2wd', 'TMUX': '/tmp/tmux-1000/default,1974,0', 'USER': 'pitosalas', 'SSH_CLIENT': '192.168.5.76 54573 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'MCFLY_HISTFILE': '/home/pitosalas/.bash_history', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib:/home/pitosalas/uros_ws/install/micro_ros_agent/lib:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pitosalas', 'MCFLY_HISTORY': '/tmp/mcfly.7R4RvEUM', 'OLDPWD': '/home/pitosalas/linorobot2_ws/src', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'PS1': '[\\h:\\w]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.12', 'COLCON_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install:/home/pitosalas/uros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pitosalas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '4', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/pitosalas/.local/bin:/home/pitosalas/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/obstacle_perception:/home/pitosalas/linorobot2_ws/install/my_cxx_package:/home/pitosalas/linorobot2_ws/install/mini_nav2:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/looker:/home/pitosalas/linorobot2_ws/install/local_costmapper:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools', 'MCFLY_SESSION_ID': 'P5hZ6U8PeCHS2xZrzBY08Hgw', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.5.76 54573 192.168.5.118 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LINOROBOT2_DEPTH_SENSOR': '', 'PYTHONPATH': '/home/pitosalas/linorobot2_ws/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/obstacle_perception/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/lib_ros_examples/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib/python3.12/site-packages:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'LINOROBOT2_LASER_SENSOR': '', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/my_cxx_package:/home/pitosalas/linorobot2_ws/install/mini_nav2:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/obstacle_perception:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/opt/ros/jazzy:/home/pitosalas/linorobot2_ws/install/looker:/home/pitosalas/linorobot2_ws/install/local_costmapper:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'ROS2_WS': 'linorobot2_ws'}), 'shell': False}
+[0.099070] (-) TimerEvent: {}
+[0.199894] (-) TimerEvent: {}
+[0.300685] (-) TimerEvent: {}
+[0.401619] (-) TimerEvent: {}
+[0.502884] (-) TimerEvent: {}
+[0.603843] (-) TimerEvent: {}
+[0.704602] (-) TimerEvent: {}
+[0.805379] (-) TimerEvent: {}
+[0.906913] (-) TimerEvent: {}
+[1.007890] (-) TimerEvent: {}
+[1.108618] (-) TimerEvent: {}
+[1.146011] (nav_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.208866] (-) TimerEvent: {}
+[1.309624] (-) TimerEvent: {}
+[1.410374] (-) TimerEvent: {}
+[1.511146] (-) TimerEvent: {}
+[1.611906] (-) TimerEvent: {}
+[1.712836] (-) TimerEvent: {}
+[1.792326] (nav_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.813036] (-) TimerEvent: {}
+[1.913829] (-) TimerEvent: {}
+[1.922364] (nav_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.014059] (-) TimerEvent: {}
+[2.114865] (-) TimerEvent: {}
+[2.216007] (-) TimerEvent: {}
+[2.317829] (-) TimerEvent: {}
+[2.418685] (-) TimerEvent: {}
+[2.519542] (-) TimerEvent: {}
+[2.593027] (nav_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.619815] (-) TimerEvent: {}
+[2.633301] (nav_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.635536] (nav_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.637899] (nav_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.701640] (nav_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.720033] (-) TimerEvent: {}
+[2.820804] (-) TimerEvent: {}
+[2.921569] (-) TimerEvent: {}
+[3.022400] (-) TimerEvent: {}
+[3.123360] (-) TimerEvent: {}
+[3.225826] (-) TimerEvent: {}
+[3.328205] (-) TimerEvent: {}
+[3.391103] (nav_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.428449] (-) TimerEvent: {}
+[3.435768] (nav_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.437085] (nav_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.439126] (nav_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.477511] (nav_tools) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.528680] (-) TimerEvent: {}
+[3.630914] (-) TimerEvent: {}
+[3.732395] (-) TimerEvent: {}
+[3.833161] (-) TimerEvent: {}
+[3.933895] (-) TimerEvent: {}
+[4.035096] (-) TimerEvent: {}
+[4.135919] (-) TimerEvent: {}
+[4.236606] (-) TimerEvent: {}
+[4.337347] (-) TimerEvent: {}
+[4.438103] (-) TimerEvent: {}
+[4.538845] (-) TimerEvent: {}
+[4.639515] (-) TimerEvent: {}
+[4.724563] (nav_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.739814] (-) TimerEvent: {}
+[4.840512] (-) TimerEvent: {}
+[4.941237] (-) TimerEvent: {}
+[5.041981] (-) TimerEvent: {}
+[5.142806] (-) TimerEvent: {}
+[5.247860] (-) TimerEvent: {}
+[5.349315] (-) TimerEvent: {}
+[5.450280] (-) TimerEvent: {}
+[5.551044] (-) TimerEvent: {}
+[5.651963] (-) TimerEvent: {}
+[5.730279] (nav_tools) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.752179] (-) TimerEvent: {}
+[5.853004] (-) TimerEvent: {}
+[5.953815] (-) TimerEvent: {}
+[6.054521] (-) TimerEvent: {}
+[6.155310] (-) TimerEvent: {}
+[6.252174] (nav_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.255515] (-) TimerEvent: {}
+[6.356277] (-) TimerEvent: {}
+[6.406537] (nav_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.456481] (-) TimerEvent: {}
+[6.557229] (-) TimerEvent: {}
+[6.584739] (nav_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.657468] (-) TimerEvent: {}
+[6.758292] (-) TimerEvent: {}
+[6.776169] (nav_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.858513] (-) TimerEvent: {}
+[6.959271] (-) TimerEvent: {}
+[7.060050] (-) TimerEvent: {}
+[7.161168] (-) TimerEvent: {}
+[7.261924] (-) TimerEvent: {}
+[7.362767] (-) TimerEvent: {}
+[7.463493] (-) TimerEvent: {}
+[7.483363] (nav_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[7.529556] (nav_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.563748] (-) TimerEvent: {}
+[7.664492] (-) TimerEvent: {}
+[7.765353] (-) TimerEvent: {}
+[7.866139] (-) TimerEvent: {}
+[7.966922] (-) TimerEvent: {}
+[8.067866] (-) TimerEvent: {}
+[8.168568] (-) TimerEvent: {}
+[8.269318] (-) TimerEvent: {}
+[8.327738] (nav_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[8.369531] (-) TimerEvent: {}
+[8.450328] (nav_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[8.469798] (-) TimerEvent: {}
+[8.570530] (-) TimerEvent: {}
+[8.573950] (nav_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.670836] (-) TimerEvent: {}
+[8.771612] (-) TimerEvent: {}
+[8.872364] (-) TimerEvent: {}
+[8.973125] (-) TimerEvent: {}
+[9.073874] (-) TimerEvent: {}
+[9.170368] (nav_tools) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.3.5 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)\n'}
+[9.174063] (-) TimerEvent: {}
+[9.274838] (-) TimerEvent: {}
+[9.375588] (-) TimerEvent: {}
+[9.476366] (-) TimerEvent: {}
+[9.577188] (-) TimerEvent: {}
+[9.677907] (-) TimerEvent: {}
+[9.778730] (-) TimerEvent: {}
+[9.879467] (-) TimerEvent: {}
+[9.980278] (-) TimerEvent: {}
+[10.081072] (-) TimerEvent: {}
+[10.181793] (-) TimerEvent: {}
+[10.282499] (-) TimerEvent: {}
+[10.383299] (-) TimerEvent: {}
+[10.484071] (-) TimerEvent: {}
+[10.584819] (-) TimerEvent: {}
+[10.685563] (-) TimerEvent: {}
+[10.786395] (-) TimerEvent: {}
+[10.887165] (-) TimerEvent: {}
+[10.988132] (-) TimerEvent: {}
+[11.089424] (-) TimerEvent: {}
+[11.190217] (-) TimerEvent: {}
+[11.290971] (-) TimerEvent: {}
+[11.391771] (-) TimerEvent: {}
+[11.492546] (-) TimerEvent: {}
+[11.593309] (-) TimerEvent: {}
+[11.694093] (-) TimerEvent: {}
+[11.794851] (-) TimerEvent: {}
+[11.875411] (nav_tools) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[11.883178] (nav_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.884317] (nav_tools) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.895045] (-) TimerEvent: {}
+[11.997871] (-) TimerEvent: {}
+[12.098565] (-) TimerEvent: {}
+[12.199302] (-) TimerEvent: {}
+[12.300096] (-) TimerEvent: {}
+[12.401028] (-) TimerEvent: {}
+[12.501831] (-) TimerEvent: {}
+[12.602583] (-) TimerEvent: {}
+[12.703347] (-) TimerEvent: {}
+[12.804081] (-) TimerEvent: {}
+[12.904823] (-) TimerEvent: {}
+[13.005523] (-) TimerEvent: {}
+[13.106314] (-) TimerEvent: {}
+[13.207244] (-) TimerEvent: {}
+[13.308080] (-) TimerEvent: {}
+[13.410885] (-) TimerEvent: {}
+[13.511494] (-) TimerEvent: {}
+[13.612311] (-) TimerEvent: {}
+[13.654465] (nav_tools) StdoutLine: {'line': b'-- Configuring done (13.3s)\n'}
+[13.712536] (-) TimerEvent: {}
+[13.803163] (nav_tools) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[13.812823] (-) TimerEvent: {}
+[13.834384] (nav_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools\n'}
+[13.896431] (nav_tools) CommandEnded: {'returncode': 0}
+[13.898831] (nav_tools) JobProgress: {'identifier': 'nav_tools', 'progress': 'build'}
+[13.901385] (nav_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools', '--', '-j4', '-l4'], 'cwd': '/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools', 'env': OrderedDict({'LINOROBOT2_BASE': '2wd', 'TMUX': '/tmp/tmux-1000/default,1974,0', 'USER': 'pitosalas', 'SSH_CLIENT': '192.168.5.76 54573 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'MCFLY_HISTFILE': '/home/pitosalas/.bash_history', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib:/home/pitosalas/uros_ws/install/micro_ros_agent/lib:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pitosalas', 'MCFLY_HISTORY': '/tmp/mcfly.7R4RvEUM', 'OLDPWD': '/home/pitosalas/linorobot2_ws/src', 'TERM_PROGRAM_VERSION': '3.4', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'PS1': '[\\h:\\w]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.12', 'COLCON_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install:/home/pitosalas/uros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pitosalas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '4', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/pitosalas/.local/bin:/home/pitosalas/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/obstacle_perception:/home/pitosalas/linorobot2_ws/install/my_cxx_package:/home/pitosalas/linorobot2_ws/install/mini_nav2:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/looker:/home/pitosalas/linorobot2_ws/install/local_costmapper:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_TERMINAL': 'iTerm2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pitosalas/linorobot2_ws/src/nav_tools/build/nav_tools', 'MCFLY_SESSION_ID': 'P5hZ6U8PeCHS2xZrzBY08Hgw', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.5.76 54573 192.168.5.118 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LINOROBOT2_DEPTH_SENSOR': '', 'PYTHONPATH': '/home/pitosalas/linorobot2_ws/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/obstacle_perception/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/lib_ros_examples/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome_interfaces/lib/python3.12/site-packages:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'LINOROBOT2_LASER_SENSOR': '', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/my_cxx_package:/home/pitosalas/linorobot2_ws/install/mini_nav2:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/obstacle_perception:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/opt/ros/jazzy:/home/pitosalas/linorobot2_ws/install/looker:/home/pitosalas/linorobot2_ws/install/local_costmapper:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/linorobot2_ws/install/dome_interfaces:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'ROS2_WS': 'linorobot2_ws'}), 'shell': False}
+[13.913032] (-) TimerEvent: {}
+[14.015926] (-) TimerEvent: {}
+[14.116620] (-) TimerEvent: {}
+[14.218258] (-) TimerEvent: {}
+[14.313971] (nav_tools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o\x1b[0m\n'}
+[14.320868] (-) TimerEvent: {}
+[14.421518] (-) TimerEvent: {}
+[14.522294] (-) TimerEvent: {}
+[14.623087] (-) TimerEvent: {}
+[14.723868] (-) TimerEvent: {}
+[14.824657] (-) TimerEvent: {}
+[14.925410] (-) TimerEvent: {}
+[15.026147] (-) TimerEvent: {}
+[15.126858] (-) TimerEvent: {}
+[15.227668] (-) TimerEvent: {}
+[15.328422] (-) TimerEvent: {}
+[15.429203] (-) TimerEvent: {}
+[15.529887] (-) TimerEvent: {}
+[15.630588] (-) TimerEvent: {}
+[15.731775] (-) TimerEvent: {}
+[15.833131] (-) TimerEvent: {}
+[15.934020] (-) TimerEvent: {}
+[16.034786] (-) TimerEvent: {}
+[16.135471] (-) TimerEvent: {}
+[16.236284] (-) TimerEvent: {}
+[16.337015] (-) TimerEvent: {}
+[16.437808] (-) TimerEvent: {}
+[16.538521] (-) TimerEvent: {}
+[16.639254] (-) TimerEvent: {}
+[16.739978] (-) TimerEvent: {}
+[16.840766] (-) TimerEvent: {}
+[16.941499] (-) TimerEvent: {}
+[17.042303] (-) TimerEvent: {}
+[17.143035] (-) TimerEvent: {}
+[17.243794] (-) TimerEvent: {}
+[17.344536] (-) TimerEvent: {}
+[17.445299] (-) TimerEvent: {}
+[17.546033] (-) TimerEvent: {}
+[17.646817] (-) TimerEvent: {}
+[17.747512] (-) TimerEvent: {}
+[17.848266] (-) TimerEvent: {}
+[17.949030] (-) TimerEvent: {}
+[18.049781] (-) TimerEvent: {}
+[18.150471] (-) TimerEvent: {}
+[18.251358] (-) TimerEvent: {}
+[18.352282] (-) TimerEvent: {}
+[18.453448] (-) TimerEvent: {}
+[18.554193] (-) TimerEvent: {}
+[18.654894] (-) TimerEvent: {}
+[18.755597] (-) TimerEvent: {}
+[18.856367] (-) TimerEvent: {}
+[18.957138] (-) TimerEvent: {}
+[19.057906] (-) TimerEvent: {}
+[19.158759] (-) TimerEvent: {}
+[19.259512] (-) TimerEvent: {}
+[19.360314] (-) TimerEvent: {}
+[19.461289] (-) TimerEvent: {}
+[19.562155] (-) TimerEvent: {}
+[19.662918] (-) TimerEvent: {}
+[19.763770] (-) TimerEvent: {}
+[19.865901] (-) TimerEvent: {}
+[19.966567] (-) TimerEvent: {}
+[20.067476] (-) TimerEvent: {}
+[20.168364] (-) TimerEvent: {}
+[20.269198] (-) TimerEvent: {}
+[20.370070] (-) TimerEvent: {}
+[20.470879] (-) TimerEvent: {}
+[20.571623] (-) TimerEvent: {}
+[20.672459] (-) TimerEvent: {}
+[20.773281] (-) TimerEvent: {}
+[20.874085] (-) TimerEvent: {}
+[20.974869] (-) TimerEvent: {}
+[21.075647] (-) TimerEvent: {}
+[21.176443] (-) TimerEvent: {}
+[21.277272] (-) TimerEvent: {}
+[21.378155] (-) TimerEvent: {}
+[21.479002] (-) TimerEvent: {}
+[21.579820] (-) TimerEvent: {}
+[21.680575] (-) TimerEvent: {}
+[21.781473] (-) TimerEvent: {}
+[21.882377] (-) TimerEvent: {}
+[21.983168] (-) TimerEvent: {}
+[22.083987] (-) TimerEvent: {}
+[22.184874] (-) TimerEvent: {}
+[22.285782] (-) TimerEvent: {}
+[22.386571] (-) TimerEvent: {}
+[22.487494] (-) TimerEvent: {}
+[22.588314] (-) TimerEvent: {}
+[22.689171] (-) TimerEvent: {}
+[22.789941] (-) TimerEvent: {}
+[22.890847] (-) TimerEvent: {}
+[22.991752] (-) TimerEvent: {}
+[23.092506] (-) TimerEvent: {}
+[23.193352] (-) TimerEvent: {}
+[23.294629] (-) TimerEvent: {}
+[23.396244] (-) TimerEvent: {}
+[23.497085] (-) TimerEvent: {}
+[23.597927] (-) TimerEvent: {}
+[23.698730] (-) TimerEvent: {}
+[23.799515] (-) TimerEvent: {}
+[23.900336] (-) TimerEvent: {}
+[24.001187] (-) TimerEvent: {}
+[24.102044] (-) TimerEvent: {}
+[24.202871] (-) TimerEvent: {}
+[24.303648] (-) TimerEvent: {}
+[24.404441] (-) TimerEvent: {}
+[24.505273] (-) TimerEvent: {}
+[24.606095] (-) TimerEvent: {}
+[24.707525] (-) TimerEvent: {}
+[24.808340] (-) TimerEvent: {}
+[24.909155] (-) TimerEvent: {}
+[25.009890] (-) TimerEvent: {}
+[25.110747] (-) TimerEvent: {}
+[25.211517] (-) TimerEvent: {}
+[25.312312] (-) TimerEvent: {}
+[25.413096] (-) TimerEvent: {}
+[25.513877] (-) TimerEvent: {}
+[25.614597] (-) TimerEvent: {}
+[25.715405] (-) TimerEvent: {}
+[25.816201] (-) TimerEvent: {}
+[25.917033] (-) TimerEvent: {}
+[26.017831] (-) TimerEvent: {}
+[26.118621] (-) TimerEvent: {}
+[26.220138] (-) TimerEvent: {}
+[26.320918] (-) TimerEvent: {}
+[26.421675] (-) TimerEvent: {}
+[26.522537] (-) TimerEvent: {}
+[26.623332] (-) TimerEvent: {}
+[26.724166] (-) TimerEvent: {}
+[26.824999] (-) TimerEvent: {}
+[26.925833] (-) TimerEvent: {}
+[27.019045] (nav_tools) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/costmap_node.dir/build.make:76: CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o] Interrupt\n'}
+[27.022123] (nav_tools) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/costmap_node.dir/all] Interrupt\n'}
+[27.023269] (nav_tools) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[27.026157] (-) TimerEvent: {}
+[27.062407] (nav_tools) CommandEnded: {'returncode': -2}
+[27.118049] (nav_tools) JobEnded: {'identifier': 'nav_tools', 'rc': 'SIGINT'}
+[27.122407] (-) EventReactorShutdown: {}

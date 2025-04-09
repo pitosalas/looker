@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/costmap_node.dir/src/costmap_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable costmap_node[0m
+[100%] Built target costmap_node
+-- Install configuration: ""
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/lib/nav_tools/costmap_node
+-- Set non-toolchain portion of runtime path of "/home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/lib/nav_tools/costmap_node" to ""
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/package_run_dependencies/nav_tools
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/parent_prefix_path/nav_tools
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/ament_prefix_path.sh
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/path.sh
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/environment/path.dsv
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.bash
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.sh
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.zsh
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/local_setup.dsv
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/package.dsv
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/ament_index/resource_index/packages/nav_tools
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/cmake/nav_toolsConfig.cmake
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/cmake/nav_toolsConfig-version.cmake
+-- Installing: /home/pitosalas/linorobot2_ws/src/nav_tools/install/nav_tools/share/nav_tools/package.xml
