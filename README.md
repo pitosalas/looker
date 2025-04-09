@@ -1,4 +1,4 @@
-# looker - run nav2::costmap2dROS
+# nav_tools
 
 ## Motivation
 
@@ -19,6 +19,8 @@ I want to learn about costmaps. I have an idea for an application that simply us
 * Lifecycle nodes are those that are designed to be launched and controlled by the Lifecycle processor
     * [Lifecycle node demp](https://github.com/ros2/demos/tree/rolling/lifecycle)
     * [Foxgloves explanation](https://foxglove.dev/blog/how-to-use-ros2-lifecycle-nodes)
+* Set the per-node log levels with this addition to your ros2 run
+    `run looker costmap_node --ros-args --params-file src/nav_tools/config/costmap_params.yaml --log-level local_costmap.local_costmap:=DEBUG`
 
 
 
@@ -28,9 +30,9 @@ Note that this is designed to work with a ros2 nodes publishing /odom and /scan.
 
 ```
 $ colcon build
-$ ros2 run looker costmap_node  --ros-args --params-file src/looker/config/costmap_params.yaml 
 ```
-
+$ 
+run looker costmap_node --ros-args --params-file src/nav_tools/config/costmap_params.yaml --log-level local_costmap.local_costmap:=DEBUG
 ## Request
 
 If you know how I should move the project forward I would love to hear from you!
