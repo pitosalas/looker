@@ -17,8 +17,6 @@ public:
   nav2_util::CallbackReturn on_configure(const rclcpp_lifecycle::State & state) override
   {
     RCLCPP_INFO(get_logger(), "Dome node configuring.Current state i %s", state.label().c_str());
-    // YAML::Node config = YAML::LoadFile("/home/pitosalas/linorobot2_ws/src/looker/config/costmap_config.yaml");
-
     
     tf_buffer_ = std::make_shared<tf2_ros::Buffer>(get_clock());
     transform_listener_ = std::make_shared<tf2_ros::TransformListener>(*tf_buffer_);
@@ -49,7 +47,7 @@ public:
   void timer_callback()
     {
       auto costmap = costmap_->getCostmap();
-      RCLCPP_INFO(
+      RCLCPP_DEBUG(
         get_logger(),
         "Costmap info - Size: %d x %d cells, Resolution: %.3f m/cell, Origin: (%.2f, %.2f)",
         costmap->getSizeInCellsX(),
