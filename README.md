@@ -23,10 +23,7 @@ I want to learn about costmaps. I have an idea for an application that simply us
     `ros2 run nav_tools costmap_node --ros-args --params-file src/nav_tools/config/costmap_params.yaml --log-level local_costmap.local_costmap:=DEBUG`
 * Local costmap seems only be generated when the robot moves. Need to look into this further
 
-
-
-
-## Running what is here
+## Running what is in this repo
 
 **Note that this is designed to work with a ros2 nodes publishing /odom and /scan. So do whatever you need to do first to get those.**
 
